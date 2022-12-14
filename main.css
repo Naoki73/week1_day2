@@ -1,0 +1,38 @@
+@font-face { font-family: Roboto; src: url('Roboto-Regular.ttf'); }
+
+body {
+    background-color: black;
+    font-family:Roboto;
+}
+
+nav {
+    list-style-type: none;
+    margin-top: 1%;
+    margin-left: 1%;
+    color:white;
+    display:flex;
+}
+.Griot_Theater {
+    display:flex;  
+    flex-basis:100px;
+    margin-left: 40px;
+    margin-top:2%;
+    font-size: large;
+    flex-direction: row;
+
+    
+}
+
+
+.navbar_elements{
+    list-style-type: none;
+    display: flex;
+    width:90px;
+    height:60px;
+   
+    letter-spacing: 1px;
+    justify-content:space-around;
+    
+    
+    
+}
